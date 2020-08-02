@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rapidrobustness",
-    version="0.0.2",
+    version="0.0.6",
     author="Cameron McPhail",
     author_email="cameron.mcphail@adelaide.edu.au",
     description="Calculations and analyses of robustness.",
@@ -20,4 +20,12 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+        'numpy',
+        'scipy',
+        'matplotlib',
+        'pandas',
+        'seaborn',
+        'ema_workbench'
+    ]
 )

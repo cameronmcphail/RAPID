@@ -1,2 +1,1 @@
-name = "rapid"
-import robustness
+from . import robustness
