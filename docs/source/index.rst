@@ -1,11 +1,11 @@
 Welcome to RAPID (Robustness Analysis Producing Intelligent Decisions)'s documentation!
 =======================================================================================
 
+.. automodule:: rapid
+    :members:
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-.. automodule:: rapid
-    :members:
 
 
 
