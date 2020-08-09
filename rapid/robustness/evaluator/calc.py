@@ -18,8 +18,7 @@ def f_to_R(f_df, R_dict):
         scenario, `s`, and decision alternative, `l`.
         Must include any other variables to be used during calculation
         of robustness (referred to as 'varX_name' below).
-        Columns: `['s_idx', 'l_idx', '<f1_name>', '<f2_name>', ...,
-                   '<var1_name>', '<var2_name>', ...]`
+        Columns: `['s_idx', 'l_idx', '<f1_name>', '<f2_name>', ..., '<var1_name>', '<var2_name>', ...]`
     R_dict : dict of dict
         A mapping of robustness metric (`R`) names to information
         about those robustness metrics including
@@ -34,12 +33,13 @@ def f_to_R(f_df, R_dict):
             the robustness metric function
         'kwargs': dict
             keyword arguments required for calculating R
-            e.g. {'t1_kwargs': {'threshold': 5.2}}
+            e.g. `{'t1_kwargs': {'threshold': 5.2}}`
                  would pass a threshold kwarg to the t1 transformation
                  if using the custom_R_metric
         Note that all performance metric names must be listed here.
-        E.g. `{'<R1_name>': {'f': <f1_name>, 'maximise': <bool>, 'threshold': None, 'func': <func>, 'kwargs': {'kwarg1': <arg>}},
-               '<R2_name>': {'f': <f1_name>, 'maximise': <bool>, 'threshold': 'critical', 'func': <func>, 'kwargs': {}}, ...}`
+        E.g.
+            `{'<R1_name>': {'f': <f1_name>, 'maximise': <bool>, 'threshold': None, 'func': <func>, 'kwargs': {'kwarg1': <arg>}},`
+            `'<R2_name>': {'f': <f1_name>, 'maximise': <bool>, 'threshold': 'critical', 'func': <func>, 'kwargs': {}}, ...}`
 
     Returns
     -------

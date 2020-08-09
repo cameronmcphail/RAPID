@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rapidrobustness",
-    version="0.0.6",
+    version="0.0.7",
     author="Cameron McPhail",
     author_email="cameron.mcphail@adelaide.edu.au",
     description="Calculations and analyses of robustness.",
