@@ -43,6 +43,9 @@ exclude_patterns = ['**test**', '**/test/**']
 # List of all external imported modules
 autodoc_mock_imports = ['numpy', 'scipy', 'matplotlib', 'mpl_toolkits', 'pandas', 'seaborn', 'ema_workbench']
 
+# Define the default page
+master_doc='index'
+
 
 # -- Options for HTML output -------------------------------------------------
 
