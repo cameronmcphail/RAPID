@@ -4,6 +4,8 @@ Welcome to RAPID (Robustness Analysis Producing Intelligent Decisions)'s documen
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+.. automodule:: rapid
+    :members:
 
 
 
