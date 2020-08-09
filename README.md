@@ -12,6 +12,9 @@ This software package can be installed from PyPI
 pip install rapidrobustness
 ```
 
+## Documentation
+The documentation can be found [here](https://rapidrobustness.readthedocs.io/).
+
 ## Authors
 * **Cameron McPhail** - *Initial development of package*
 
