@@ -1,6 +1,15 @@
 # RAPID - Robustness Analysis Producing Intelligent Decisions
-The RAPID software package enables the generic guidance framework introduced in McPhail et al. (soon to be published) (see reference below) to be implemented in a user-friendly and consistent manner, including functionality to guide the user through the process of creating a custom robustness metric.
-McPhail, C., Maier, H.R., Westra, S., van der Linden, L., Kwakkel, J.H. (to be published). Guidance framework and software for understanding and achieving system robustness.
+**When using the RAPID software, please refer to the following paper:**
+
+McPhail C., Maier H.R., Westra S, van der Linden L. and Kwakkel J.H. (2021) [Guidance framework and software for understanding and achieving system robustness](https://www.sciencedirect.com/science/article/pii/S136481522100102X), Environmental Modelling and Software, 142, 105059, DOI:10.1016/j.envsoft.2021.105059
+
+
+
+**This paper also utilizes information from the following papers:**
+
+McPhail C., Maier H.R., Westra S., Kwakkel J.H. and van der Linden L. (2020) [Impact of scenario selection on robustness](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR026515), Water Resources Research, 56(9), e2019WR026515, DOI: 10.1029/2019WR026515
+
+McPhail C., Maier H.R., Kwakkel J.H., Giuliani M., Castelletti A. and Westra S. [Robustness metrics: How are they calculated, when should they be used and why do they give different results?](http://onlinelibrary.wiley.com/doi/10.1002/2017EF000649/abstract), Earth's Future, 6(2), 169-191, DOI:10.1002/2017EF000649
 
 ## Getting started
 ### Prerequisites
